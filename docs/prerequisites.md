@@ -59,8 +59,8 @@ Collect these before the interview. Claude asks only for what it can't find in y
 
 ## Permissions and licences
 
-- **Remotion licence:** Remotion is free for individuals and companies with up to three employees. Larger companies need a [Remotion Company License](https://www.remotion.pro/license) for commercial use.
-- **ElevenLabs rights:** What you can do with the generated voice depends on your ElevenLabs plan.
+- **Remotion licence:** Remotion is free for individuals, for companies and teams with up to three people in total, and for non-profit organizations. The Free License also allows commercial use, so a small company can publish and advertise with the videos. Other companies need a [Remotion Company License](https://www.remotion.dev/license), even if only one person uses Remotion. For details, see the [Remotion licence FAQ](https://www.remotion.dev/docs/license/faq).
+- **ElevenLabs rights:** The ElevenLabs Free plan allows only non-commercial use. For a promo video, you need a paid plan. A commercial licence starts with the Starter plan. For details, see [ElevenLabs pricing](https://elevenlabs.io/pricing).
 - **Music and footage:** You must hold a licence for any music or footage you add.
 
 ## Next steps
