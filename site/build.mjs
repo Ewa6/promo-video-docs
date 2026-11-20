@@ -20,6 +20,9 @@ const decode = (s) => s.replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&g
 // Docs page path ("how-to/x.md") -> output path ("how-to/x.html"). README is the home page.
 const outPath = (md) => (md === 'README.md' ? 'index.html' : md.replace(/\.md$/, '.html'));
 
+// Link icon next to headings and glossary terms.
+const LINK_ICON = '<svg viewBox="0 0 24 24" width="0.8em" height="0.8em" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>';
+
 // GitHub-style heading slugs, so #anchors written for GitHub keep working.
 function slugger() {
   const seen = new Map();
@@ -66,7 +69,7 @@ function renderMarkdown(md, file) {
         return '<dl class="deflist">' + tok.items.map(({ term, def }) => {
           const id = slug(term);
           headings.push({ depth: 3, id, text: term, glossary: true });
-          return `<div class="def" id="${id}"><dt><a class="anchor" href="#${id}" aria-hidden="true" tabindex="-1">#</a>${esc(term)}</dt><dd>${this.parser.parseInline(def)}</dd></div>`;
+          return `<div class="def" id="${id}"><dt><a class="anchor" href="#${id}" title="Copy link to this section" aria-hidden="true" tabindex="-1">${LINK_ICON}</a>${esc(term)}</dt><dd>${this.parser.parseInline(def)}</dd></div>`;
         }).join('') + '</dl>\n';
       },
     }],
@@ -83,7 +86,7 @@ function renderMarkdown(md, file) {
         const inner = step
           ? `<span class="step-num" aria-hidden="true">${step[1]}</span><span><span class="sr-only">Step ${step[1]}: </span>${step[2]}</span>`
           : html;
-        return `<h${depth} id="${id}"${step ? ' class="step"' : ''}>${inner}<a class="anchor" href="#${id}" aria-label="Link to this section">#</a></h${depth}>\n`;
+        return `<h${depth} id="${id}"${step ? ' class="step"' : ''}>${inner}<a class="anchor" href="#${id}" title="Copy link to this section" aria-label="Copy link to this section">${LINK_ICON}</a></h${depth}>\n`;
       },
       blockquote({ tokens }) {
         const body = this.parser.parse(tokens);
