@@ -1,6 +1,6 @@
 # Before you begin
 
-This page lists everything you need before you make your first promo video. Check each item. If something is missing, [Set up the skill](getting-started.md) explains how to add the tools.
+This page lists everything you need before you make your first promo video. If something is missing, [Set up the skill](getting-started.md) explains how to add the tools.
 
 ## Required
 
