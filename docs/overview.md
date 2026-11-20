@@ -19,11 +19,11 @@ You can ask for different lengths, shapes, or a different set of cuts during the
 
 Each cut is an MP4 video file with:
 
-- A voiceover that you generate with ElevenLabs, an AI voice service
-- Animated scenes that move in time with the voice
-- Recreated screens of your product, filled with realistic but invented data
-- Your logo, colors, and call to action at the end
-- Word-by-word captions on the shorter cuts, for people who watch with the sound off
+- A voiceover that you generate with ElevenLabs, an AI voice service.
+- Animated scenes that move in time with the voice.
+- Recreated screens of your product, filled with realistic but invented data.
+- Your logo, colors, and call to action at the end.
+- Word-by-word captions on the shorter cuts, for people who watch with the sound off.
 
 Claude also gives you a storyboard image for each cut, so you can check the whole video at a glance.
 
