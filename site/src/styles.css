@@ -190,7 +190,9 @@ kbd { font: 500 11px/1 var(--font); padding: 4px 6px; border-radius: 6px; border
 .prose h2 { font-size: 1.6rem; line-height: 1.25; font-weight: 700; margin: 3.2rem 0 1.1rem; padding-top: 1.6rem; border-top: 1px solid var(--border); }
 .prose h3 { font-size: 1.2rem; line-height: 1.35; font-weight: 650; margin: 2.2rem 0 .75rem; }
 .prose h4 { font-size: 1.05rem; margin: 1.6rem 0 .5rem; }
-.anchor { margin-left: .4em; font-weight: 500; color: var(--border-strong); opacity: 0; transition: opacity .2s, color .2s; text-decoration: none; }
+.anchor { position: relative; display: inline-flex; align-items: center; vertical-align: middle; margin-left: .45em; padding: .15em; border-radius: 6px; color: var(--muted); opacity: 0; transition: opacity .2s, color .2s; text-decoration: none; }
+.anchor svg { display: block; }
+.anchor.copied::after { content: 'Link copied'; position: absolute; left: 50%; bottom: calc(100% + 6px); transform: translateX(-50%); padding: 3px 8px; border-radius: 6px; font-size: 12px; font-weight: 600; letter-spacing: 0; white-space: nowrap; color: #fff; background: var(--accent); pointer-events: none; }
 .prose :is(h2, h3):hover .anchor, .def:hover .anchor, .anchor:focus { opacity: 1; }
 .anchor:hover { color: var(--accent); }
 .prose h2.step { display: flex; align-items: center; gap: 14px; }

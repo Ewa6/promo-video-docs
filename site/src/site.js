@@ -42,6 +42,19 @@
     });
   });
 
+  // Link icons next to headings: go to the section and copy its URL
+  document.querySelectorAll('.anchor').forEach((a) => {
+    a.addEventListener('click', async (e) => {
+      e.preventDefault();
+      history.replaceState(null, '', a.hash);
+      try {
+        await navigator.clipboard.writeText(a.href);
+        a.classList.add('copied');
+        setTimeout(() => a.classList.remove('copied'), 1600);
+      } catch (err) { /* clipboard unavailable: the address bar still has the link */ }
+    });
+  });
+
   // Reading progress and "On this page" highlighting
   const bar = document.querySelector('.progress span');
   const tocLinks = [...document.querySelectorAll('.toc a[href^="#"]:not(.toc-top)')];
