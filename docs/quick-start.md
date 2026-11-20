@@ -69,9 +69,9 @@ Claude times each video to your recording, renders it in full quality, and check
 
 When you approve, you have:
 
-- an MP4 file for each cut, saved in the `out` folder of the video project, for example `marketing/promo-video/out/acme-hero.mp4`;
-- a storyboard image for each cut;
-- an updated `brief.md` file that records what was made.
+- An MP4 file for each cut, saved in the `out` folder of the video project, for example `marketing/promo-video/out/acme-hero.mp4`
+- A storyboard image for each cut
+- An updated `brief.md` file that records what was made
 
 Claude then offers to save the project. For details, see [Continue or save a project](how-to/continue-or-save-a-project.md).
 

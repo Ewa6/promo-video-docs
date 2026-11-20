@@ -19,11 +19,11 @@ You can ask for different lengths, shapes, or a different set of cuts during the
 
 Each cut is an MP4 video file with:
 
-- a voiceover that you generate with ElevenLabs, an AI voice service;
-- animated scenes that move in time with the voice;
-- recreated screens of your product, filled with realistic but invented data;
-- your logo, colors, and call to action at the end;
-- word-by-word captions on the shorter cuts, for people who watch with the sound off.
+- A voiceover that you generate with ElevenLabs, an AI voice service
+- Animated scenes that move in time with the voice
+- Recreated screens of your product, filled with realistic but invented data
+- Your logo, colors, and call to action at the end
+- Word-by-word captions on the shorter cuts, for people who watch with the sound off
 
 Claude also gives you a storyboard image for each cut, so you can check the whole video at a glance.
 
@@ -31,9 +31,9 @@ Claude also gives you a storyboard image for each cut, so you can check the whol
 
 The skill is for people who need a product video and have access to the product's code. For example:
 
-- founders and product managers who want a launch or explainer video;
-- marketing teams who want consistent videos in several lengths;
-- anyone who needs to update an existing promo video, for example with a new voice or shorter cut.
+- Founders and product managers who want a launch or explainer video
+- Marketing teams who want consistent videos in several lengths
+- Anyone who needs to update an existing promo video, for example with a new voice or shorter cut
 
 You don't need to write code. Claude runs every technical step. You might need someone to help you install a few free tools the first time. For details, see [Before you begin](prerequisites.md).
 

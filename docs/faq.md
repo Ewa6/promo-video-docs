@@ -16,9 +16,9 @@ The skill is designed to work from the product's code, together with its website
 
 The skill itself is free. You might pay for:
 
-- **ElevenLabs**: a paid plan, because the Free plan allows only non-commercial use. The cost depends on your plan and how many takes you generate;
-- **a Remotion Company License**, if your company has more than three people;
-- **music or footage licences**, if you add your own.
+- **ElevenLabs:** You need a paid plan, because the Free plan allows only non-commercial use. The cost depends on your plan and how many takes you generate.
+- **Remotion Company License:** You need it if your company has more than three people.
+- **Music or footage licenses:** You need them if you add your own.
 
 ### Does it work on Windows?
 
