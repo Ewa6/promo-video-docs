@@ -9,7 +9,7 @@ Claude has imported your voice takes, rendered the videos in full quality, and s
 ## What Claude sends you
 
 - **The MP4 videos** for each cut, at full HD resolution (1920 × 1080 pixels for landscape cuts).
-- **A short summary** for each cut: its length, what changed since the storyboard, and anything you still need to do, such as buy a licence or record a missing take.
+- **A short summary** for each cut: its length, what changed since the storyboard, and anything you still need to do, such as buy a license or record a missing take.
 
 Before it sends the videos, Claude checks each one for problems, such as a scene that's cut off before its animation finishes, text that overlaps, or a voice that's too loud or too quiet. It fixes what it can first.
 
@@ -31,7 +31,7 @@ Before it sends the videos, Claude checks each one for problems, such as a scene
 When you approve, the videos are finished. Claude updates the project notes and offers to save the project. For details, see [Continue or save a project](continue-or-save-a-project.md).
 
 > [!IMPORTANT]
-> Before you publish, make sure you have the licences you need: Remotion (for companies with more than three people), a paid ElevenLabs plan, and any music or footage. For details, see [Permissions and licences](../prerequisites.md#permissions-and-licences).
+> Before you publish, make sure you have the licenses you need: Remotion (for companies with more than three people), a paid ElevenLabs plan, and any music or footage. For details, see [Permissions and licenses](../prerequisites.md#permissions-and-licenses).
 
 ## Related topics
 

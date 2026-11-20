@@ -1,6 +1,6 @@
 # Promo video skill documentation
 
-The promo video skill helps Claude turn your software product into short, narrated marketing videos. You answer a few questions, approve a storyboard, record a voiceover with ElevenLabs, and receive finished MP4 videos.
+The promo video skill helps Claude turn your software product into short, narrated marketing videos. You answer a few questions, approve a storyboard, record a voiceover (for example, with ElevenLabs), and receive finished MP4 videos.
 
 > [!NOTE]
 > The skill isn't public. To use it, contact [Ewa Jabłońska](https://www.linkedin.com/in/ejablonska/) or [Krzysztof Jabłoński](https://www.linkedin.com/in/krzysztof-jab%C5%82o%C5%84ski/) on LinkedIn.

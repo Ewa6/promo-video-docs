@@ -71,9 +71,9 @@ If it doesn't appear, see [The skill doesn't appear in Claude Code](troubleshoot
 
 You don't need to do anything else now. When you make your first video, Claude:
 
-- creates the video project inside your product's folder;
-- downloads the video tools, which needs an internet connection;
-- builds the speech-timing tool (on Windows, downloads it ready-made). This takes about a minute and happens only once per computer.
+- Creates the video project inside your product's folder.
+- Downloads the video tools, which needs an internet connection.
+- Builds the speech-timing tool (on Windows, downloads it ready-made). This takes about a minute and happens only once per computer.
 
 ## Update the skill
 
