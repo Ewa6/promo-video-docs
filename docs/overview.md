@@ -42,7 +42,7 @@ The skill is for people who need a product video and have access to the product'
 - Marketing teams who want consistent videos in several lengths
 - Anyone who needs to update an existing promo video, for example with a new voice or shorter cut
 
-You don't need to write code. Claude runs every technical step. You might need someone to help you install a few free tools the first time. For details, see [Before you begin](prerequisites.md).
+You don't need to write code. Claude runs every technical step. The first time, Claude can also install the few free programs it needs. For details, see [Before you begin](prerequisites.md).
 
 ## What it doesn't do
 

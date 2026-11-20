@@ -8,34 +8,18 @@ Read [Before you begin](prerequisites.md) and make sure you have Claude Code, an
 
 ## Step 1: Install the required tools
 
-Claude Code runs the video tools on your computer, so they need to be installed first.
+Claude runs the video tools on your computer, so a few programs must be installed first. Claude can check and install them for you.
 
-1. Open a terminal. On a Mac, open the **Terminal** app.
-2. Check Node.js by running:
+1. Open Claude Code.
+2. Type a request, for example:
 
-   ```bash
-   node -v
+   ```text
+   Check that this computer has the tools for the promo video skill: Node.js 22.18 or later, git, and make. Install anything that's missing.
    ```
 
-   If the command isn't found, or the version is earlier than `v22.18.0`, install the current version from [nodejs.org](https://nodejs.org). npm is included.
-3. Check git and make by running:
+3. Read what Claude plans to install, and approve it.
 
-   ```bash
-   git --version
-   make --version
-   ```
-
-   On Windows, skip `make --version`: you don't need make.
-
-   On a Mac, if either command isn't found, install the Xcode Command Line Tools:
-
-   ```bash
-   xcode-select --install
-   ```
-
-   Follow the window that opens, and then run the checks again.
-
-You can also ask Claude to run these checks and tell you what's missing.
+On a Mac, an installer window for the Xcode Command Line Tools might open. Follow the steps in the window, and then tell Claude when it's done.
 
 ## Step 2: Choose where to install the skill
 
@@ -55,7 +39,7 @@ The skill isn't public. To use it, contact one of the authors on LinkedIn:
 - [Ewa Jabłońska](https://www.linkedin.com/in/ejablonska/)
 - [Krzysztof Jabłoński](https://www.linkedin.com/in/krzysztof-jab%C5%82o%C5%84ski/)
 
-You get the skill files and the install command for the place you chose in Step 2.
+You get the skill files. Then ask Claude Code to install the skill from these files in the place you chose in Step 2.
 
 ## Step 4: Check that the skill is ready
 

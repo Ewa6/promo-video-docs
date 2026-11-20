@@ -78,6 +78,6 @@ Claude then offers to save the project. For details, see [Continue or save a pro
 
 ## Next steps
 
-- [Change a finished video](how-to/change-a-video.md), for example to shorten it or use a new voice.
-- [Add screenshots, footage, or music](how-to/add-screenshots-footage-music.md).
+- To shorten a video or use a new voice, see [Change a finished video](how-to/change-a-video.md).
+- To add your own material, see [Add screenshots, footage, or music](how-to/add-screenshots-footage-music.md).
 - If something goes wrong, see [Troubleshooting](troubleshooting.md).
