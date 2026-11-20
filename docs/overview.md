@@ -27,6 +27,13 @@ Each cut is an MP4 video file with:
 
 Claude also gives you a storyboard image for each cut, so you can check the whole video at a glance.
 
+### Example
+
+<figure class="video">
+<video controls preload="metadata" playsinline poster="media/stickerstart-en30-poster.jpg" src="media/stickerstart-en30.mp4"></video>
+<figcaption>A 30-second cut made with this skill. Source: <a href="https://stickerstart.eu/">stickerstart.eu</a></figcaption>
+</figure>
+
 ## Who it's for
 
 The skill is for people who need a product video and have access to the product's code. For example:

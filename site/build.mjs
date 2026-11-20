@@ -196,6 +196,8 @@ async function build() {
 
   await fs.writeFile(path.join(OUT, 'assets', 'search.json'), JSON.stringify(searchIndex));
   for (const f of ['styles.css', 'site.js', 'favicon.svg']) await fs.copyFile(path.join(SRC, f), path.join(OUT, 'assets', f));
+  // Videos and images used in the docs.
+  await fs.cp(path.join(DOCS, 'media'), path.join(OUT, 'media'), { recursive: true }).catch((e) => { if (e.code !== 'ENOENT') throw e; });
   await fs.writeFile(path.join(OUT, '.nojekyll'), '');
 
   console.log(`Built ${pages.size} pages into ${path.relative(process.cwd(), OUT) || OUT}`);
