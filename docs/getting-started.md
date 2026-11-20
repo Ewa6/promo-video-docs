@@ -38,6 +38,7 @@ The skill isn't public. To use it, contact one of the authors on LinkedIn:
 
 - [Ewa Jabłońska](https://www.linkedin.com/in/ejablonska/)
 - [Krzysztof Jabłoński](https://www.linkedin.com/in/krzysztof-jab%C5%82o%C5%84ski/)
+
 ## Step 4: Check that the skill is ready
 
 1. If Claude Code is open, start a new session so it loads the skill.
