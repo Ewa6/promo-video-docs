@@ -6,7 +6,7 @@ Quick answers to common questions about the promo video skill. For step-by-step 
 
 ### Do I need to know how to code?
 
-No. Claude runs every technical step. You answer questions, review drafts, and generate the voice in ElevenLabs. You might need help installing a few free tools the first time. For details, see [Before you begin](prerequisites.md).
+No. Claude runs every technical step. You answer questions, review drafts, and generate the voice in ElevenLabs. The first time, Claude can also install the few free programs it needs. For details, see [Before you begin](prerequisites.md).
 
 ### Do I need the product's code?
 

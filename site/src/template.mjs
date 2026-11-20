@@ -203,10 +203,6 @@ function docPage(ctx) {
     <div class="prose">
 ${ctx.body}
     </div>
-    <div class="page-actions">
-      <a href="${SITE.editBase}${esc(ctx.file)}" target="_blank" rel="noopener">${svgIcon.edit}Edit this page on GitHub</a>
-      <a href="${ctx.root}${esc(ctx.file)}">${svgIcon.md}View as Markdown</a>
-    </div>
     <nav class="pager" aria-label="Previous and next pages">
       ${ctx.prev ? `<a class="pager-card prev" href="${ctx.root}${ctx.prev.href}"><span class="pager-label">${svgIcon.back}Previous</span><span class="pager-title">${esc(ctx.prev.title)}</span></a>` : '<span></span>'}
       ${ctx.next ? `<a class="pager-card next" href="${ctx.root}${ctx.next.href}"><span class="pager-label">Next${svgIcon.arrow}</span><span class="pager-title">${esc(ctx.next.title)}</span></a>` : ''}

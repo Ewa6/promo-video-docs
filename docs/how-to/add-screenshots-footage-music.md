@@ -32,8 +32,8 @@ Use this to replace a scene's animation with a real clip, for example a screen r
    ```
 
 2. Tell Claude what kind of clip it is:
-   - A **screen recording**, which Claude frames on your brand background
-   - A **full-screen clip**, which fills the whole picture
+   - A **screen recording**, which Claude frames on your brand background.
+   - A **full-screen clip**, which fills the whole picture.
 3. If the clip has a slow start, tell Claude how many seconds to skip.
 
 **Result:** The clip plays in that scene's place, in time with the voice. The voice recording doesn't change.
