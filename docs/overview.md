@@ -6,7 +6,7 @@ You don't need video-editing skills. Claude does the research, writing, animatio
 
 ## What you get
 
-By default, Claude makes four versions of the video. Each version is called a *cut*.
+A *cut* is one version of the video, with its own length and shape. In the interview, Claude asks which cuts you need. It recommends this set of four:
 
 | Cut | Length | Shape | Captions | Typical use |
 |---|---|---|---|---|
@@ -15,7 +15,7 @@ By default, Claude makes four versions of the video. Each version is called a *c
 | 15-second cut | About 15 seconds | Landscape | On | Stories, event loops |
 | 15-second vertical cut | About 15 seconds | Vertical (phone) | On | Phone-first feeds |
 
-You can ask for different lengths, shapes, or a different set of cuts during the interview. For details, see [Change a finished video](how-to/change-a-video.md).
+You can choose fewer cuts, or other lengths and shapes. You can also add a cut later, for example a vertical version of a finished video. For details, see [Change a finished video](how-to/change-a-video.md).
 
 Each cut is an MP4 video file with:
 
