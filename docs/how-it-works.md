@@ -9,9 +9,9 @@ When you ask for a promo video, Claude follows the same stages every time. This 
 | 1. Interview | Reads your code and website, then asks about anything it can't find. | Answer the questions. |
 | 2. Research | Studies the product: its screens, wording, colors, logos, and claims. | Nothing. |
 | 3. Set up | Creates the video project and applies your brand. | Nothing. |
-| 4. Script and storyboard | Writes the voiceover script, builds the scenes, and makes a draft video. | **Approve the storyboard** (approval 1). |
+| 4. Script and storyboard | Writes the voiceover script, builds the scenes, and makes a draft video. | Approve the storyboard (approval 1). |
 | 5. Voiceover | Prepares the text and voice settings for ElevenLabs. | Generate the voice recordings, or let a connected ElevenLabs tool do it. |
-| 6. Final videos | Times the video to your recording, renders full-quality videos, and checks them. | **Approve the final videos** (approval 2). |
+| 6. Final videos | Times the video to your recording, renders full-quality videos, and checks them. | Approve the final videos (approval 2). |
 | 7. Wrap up | Updates the project notes. Offers to save the project. | Decide whether to save the project. |
 
 ## Two approval points
