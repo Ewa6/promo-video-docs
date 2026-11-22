@@ -1,4 +1,4 @@
-# Frequently asked questions
+# FAQ
 
 Quick answers to common questions about the promo video skill. For step-by-step instructions, see the [how-to guides](README.md#make-and-change-videos). For errors, see [Troubleshooting](troubleshooting.md).
 
@@ -16,7 +16,7 @@ The skill is designed to work from the product's code, together with its website
 
 The skill itself is free. You might pay for:
 
-- **ElevenLabs:** You need a paid plan, because the Free plan allows only non-commercial use. The cost depends on your plan and how many takes you generate.
+- **ElevenLabs:** The cost depends on your plan and how many takes you generate. For commercial use, you need a paid plan, because the Free plan allows only non-commercial use.
 - **Remotion Company License:** You need it if your company has more than three people.
 - **Music or footage licenses:** You need them if you add your own.
 

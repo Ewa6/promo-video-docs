@@ -244,5 +244,5 @@ or reports that a cut was `skipped: not synced`.
 
 ## Related topics
 
-- [Frequently asked questions](faq.md)
+- [FAQ](faq.md)
 - [Glossary](glossary.md)

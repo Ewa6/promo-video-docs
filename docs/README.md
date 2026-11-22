@@ -28,5 +28,5 @@ If you're new, read these pages in order:
 ## Get help
 
 - [Troubleshooting](troubleshooting.md): what an error or warning means and how to fix it.
-- [Frequently asked questions](faq.md)
+- [FAQ](faq.md)
 - [Glossary](glossary.md): the terms you'll see while you work with the skill.

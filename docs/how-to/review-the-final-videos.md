@@ -31,7 +31,7 @@ Before it sends the videos, Claude checks each one for problems, such as a scene
 When you approve, the videos are finished. Claude updates the project notes and offers to save the project. For details, see [Continue or save a project](continue-or-save-a-project.md).
 
 > [!IMPORTANT]
-> Before you publish, make sure you have the licenses you need: Remotion (for companies with more than three people), a paid ElevenLabs plan, and any music or footage. For details, see [Permissions and licenses](../prerequisites.md#permissions-and-licenses).
+> Before you publish, make sure you have the licenses you need: Remotion (for companies with more than three people), a paid ElevenLabs plan (for commercial use), and any music or footage. For details, see [Permissions and licenses](../prerequisites.md#permissions-and-licenses).
 
 ## Related topics
 
