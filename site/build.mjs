@@ -110,7 +110,7 @@ function renderMarkdown(md, file) {
       },
       code({ text, lang }) {
         const label = (lang || 'text').split(/\s/)[0];
-        return `<figure class="code"><figcaption><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span><span class="lang">${esc(label)}</span><button class="copy" type="button" aria-label="Copy code">Copy</button></figcaption><pre><code class="language-${esc(label)}">${esc(text)}</code></pre></figure>\n`;
+        return `<figure class="code"><figcaption>${label === 'text' ? '' : `<span class="lang">${esc(label)}</span>`}<button class="copy" type="button" aria-label="Copy code">Copy</button></figcaption><pre><code class="language-${esc(label)}">${esc(text)}</code></pre></figure>\n`;
       },
       paragraph({ tokens }) {
         const html = this.parser.parseInline(tokens);

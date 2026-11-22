@@ -2,7 +2,7 @@
 
 Use this page when something goes wrong while you make a video.
 
-Claude fixes most problems by itself and tells you only about the ones that need you. Many of the messages below come from the project's checking tools, and Claude might quote them to you.
+Claude fixes most problems by itself and tells you only about the ones that need you.
 
 **Jump to:** [Setup](#setup) · [Voiceover](#voiceover) · [Pictures and timing](#pictures-and-timing) · [Captions and names](#captions-and-names) · [Script and content](#script-and-content)
 
@@ -22,11 +22,7 @@ Claude fixes most problems by itself and tells you only about the ones that need
 
 ### Your version of Node.js is too old
 
-**Problem:** Claude reports a message like:
-
-```text
-⚠ Node v20.11.0: the scripts import TypeScript directly and need Node 22.18+.
-```
+**Problem:** Claude says that your version of Node.js is too old and that the video project needs version 22.18 or later.
 
 **Likely cause:** Your computer has an older version of Node.js.
 
@@ -34,11 +30,7 @@ Claude fixes most problems by itself and tells you only about the ones that need
 
 ### The project folder already exists
 
-**Problem:** Claude reports:
-
-```text
-✗ marketing/promo-video exists and is not empty — not overwriting.
-```
+**Problem:** Claude says that the project folder, for example `marketing/promo-video`, already exists and isn't empty.
 
 **Likely cause:** A folder with that name already exists, so Claude won't overwrite it.
 
@@ -64,11 +56,7 @@ Until it's fixed, Claude can keep working with estimated timing, so you can stil
 
 ### The draft video has no sound
 
-**Problem:** The draft video is silent, or Claude reports:
-
-```text
-The guide voice uses macOS `say`. Elsewhere use `npm run sync -- <cut> --estimate` …
-```
+**Problem:** The draft video is silent, or Claude says that the guide voice works only on a Mac.
 
 **Likely cause:** The robotic preview voice works only on a Mac. On other computers, drafts are silent and their timing is estimated.
 
@@ -76,17 +64,7 @@ The guide voice uses macOS `say`. Elsewhere use `npm run sync -- <cut> --estimat
 
 ### The voice take doesn't match the script
 
-**Problem:** Claude reports that only part of the script was recognized, for example:
-
-```text
-⚠ Under 70% of the script was recognised. Check the audio is this cut, read from the current src/script.ts.
-```
-
-or
-
-```text
-⚠ only 64% of script words aligned — does the take match the script?
-```
+**Problem:** Claude says that only part of the script matches the voice recording, for example only 64% of the words.
 
 **Likely cause:** One of these:
 
@@ -105,7 +83,7 @@ A match above 90% is normal.
 
 ### Claude can't find the voice file
 
-**Problem:** Claude reports `file not found` when it tries to import your take.
+**Problem:** Claude says that it can't find the voice file you sent.
 
 **Likely cause:** The path you gave doesn't point to the file, for example because the file is still downloading or has a different name.
 
@@ -113,11 +91,7 @@ A match above 90% is normal.
 
 ### The voice is too loud or too quiet
 
-**Problem:** Claude reports a message like:
-
-```text
-⚠ loudness -21.4 LUFS is outside −13…−18: re-import the take with npm run vo:import
-```
+**Problem:** Claude says that the voice recording is too loud or too quiet.
 
 **Likely cause:** The take wasn't brought in through the project's import step, which sets a standard volume for web and social video.
 
@@ -125,7 +99,7 @@ A match above 90% is normal.
 
 ### The final video still has the robotic voice
 
-**Problem:** The check report says `guide voice, not the real take`.
+**Problem:** The final video uses the robotic guide voice, or Claude says that a cut has no real voice recording yet.
 
 **Likely cause:** Claude doesn't have a real ElevenLabs take for that cut yet.
 
@@ -135,11 +109,7 @@ A match above 90% is normal.
 
 ### A scene ends before its animation finishes
 
-**Problem:** A scene changes before its animation completes, or Claude reports:
-
-```text
-⚠ spoken <0.6 s before the scene ends — the beat barely shows …
-```
+**Problem:** A scene changes before its animation completes, or Claude says that a scene ends too soon after the voice mentions it.
 
 **Likely cause:** The voice moves on to the next line before the picture has time to finish.
 
@@ -171,13 +141,7 @@ A match above 90% is normal.
 
 ### The video stops with an error about timings
 
-**Problem:** Claude reports a message like:
-
-```text
-No src/timings/hero.json yet. Run: npm run sync -- hero
-```
-
-or reports that a cut was `skipped: not synced`.
+**Problem:** Claude says that a cut isn't timed to its voice yet, or that it skipped a cut for this reason.
 
 **Likely cause:** The script changed after the video was last timed to its voice.
 
@@ -220,7 +184,7 @@ or reports that a cut was `skipped: not synced`.
 
 ### The video is longer or shorter than planned
 
-**Problem:** Claude warns that a cut's estimated length doesn't match its target, for example `estimated 38 s vs target 30 s`.
+**Problem:** Claude says that a cut is longer or shorter than its target, for example 38 seconds instead of 30.
 
 **Likely cause:** The script has too many or too few words for the length.
 
@@ -228,7 +192,7 @@ or reports that a cut was `skipped: not synced`.
 
 ### A number can't be shown without a source
 
-**Problem:** Claude says that a statistic needs a source, or reports `stats need a real "source" line`.
+**Problem:** Claude says that a number in the video needs a source.
 
 **Likely cause:** Every number on screen must show where it comes from.
 
@@ -236,7 +200,7 @@ or reports that a cut was `skipped: not synced`.
 
 ### The main video needs more custom scenes
 
-**Problem:** Claude reports that the main video has too few custom scenes.
+**Problem:** Claude says that the main video has too few custom scenes.
 
 **Likely cause:** The main video must include at least three scenes built for your product, so it doesn't look generic.
 
