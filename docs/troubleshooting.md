@@ -49,13 +49,13 @@ Claude fixes most problems by itself and tells you only about the ones that need
 
 ### The speech-timing tool doesn't build
 
-**Problem:** The first time Claude times a video to its voice, the step fails while it builds a tool called whisper.cpp.
+**Problem:** The first time Claude times a video to its voice, it can't build the speech-timing tool (whisper.cpp).
 
-**Likely cause:** git or make isn't installed. On a Mac or Linux, the speech-timing tool is built from source the first time and needs both. (On Windows it's downloaded ready-made, so check the internet connection instead.)
+**Likely cause:** Two developer tools, Git and Make, aren't installed. On a Mac or Linux, Claude builds the speech-timing tool from source the first time, and it needs both. On Windows, the tool is downloaded ready-made, so check your internet connection instead.
 
 **Solution:**
 
-1. Ask Claude to install git and make. For details, see [Install the required tools](getting-started.md#step-2-install-the-required-tools).
+1. Ask Claude to install Git and Make. For details, see [Install the required tools](getting-started.md#step-2-install-the-required-tools).
 2. Ask Claude to try again.
 
 Until it's fixed, Claude can keep working with estimated timing, so you can still review the storyboard.

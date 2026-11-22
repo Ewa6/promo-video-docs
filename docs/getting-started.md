@@ -21,7 +21,7 @@ Claude runs the video tools on your computer, so a few programs must be installe
 2. Type a request, for example:
 
    ```text
-   Check that this computer has the tools for the promo video skill: Node.js 22.18 or later, git, and make. Install anything that's missing.
+   Check that this computer has the tools for the promo video skill: Node.js 22.18 or later, Git, and Make. Install anything that's missing.
    ```
 
 3. Read what Claude plans to install, and approve it.

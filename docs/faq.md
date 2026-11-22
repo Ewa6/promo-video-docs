@@ -27,7 +27,7 @@ Yes. A full video has been made with the skill on Windows 11. Two things work di
 - The robotic preview voice works only on a Mac. On Windows, drafts are silent and their timing is estimated.
 - The final check makes single pictures instead of one contact sheet, unless you install the full ffmpeg (a video tool) yourself. Claude looks at the single pictures instead.
 
-You don't need make on Windows: the speech-timing tool is downloaded ready-made.
+You don't need Make on Windows: the speech-timing tool is downloaded ready-made.
 
 ### Can I make a video in a language other than English?
 
