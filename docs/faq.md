@@ -78,7 +78,7 @@ Yes. Claude sends you a draft video with the storyboard. You can also ask Claude
 
 ### Does the video show my real customer data?
 
-No. Product screens are recreated with realistic but invented data, and dashboards are labeled "Illustrative data." Screenshots and screen recordings must come from a demo version of your app.
+Not from Claude. Claude recreates your product screens with realistic but invented data, and dashboards are labeled "Illustrative data." If you add your own screenshots or screen recordings, make sure they come from a demo version of your app.
 
 ### Can I edit the finished video in another app?
 
@@ -86,4 +86,4 @@ Yes. The videos are standard MP4 files, so you can open them in any video editor
 
 ### Why does Claude stop and ask me to approve?
 
-So you can catch problems while they're cheap to fix. The storyboard approval comes before you pay for a voice, and the final approval comes before you publish. For details, see [Two approval points](how-it-works.md#two-approval-points).
+The approvals let you catch problems while they're cheap to fix. The storyboard approval comes before you pay for a voice, and the final approval comes before you publish. For details, see [Two approval points](how-it-works.md#two-approval-points).
