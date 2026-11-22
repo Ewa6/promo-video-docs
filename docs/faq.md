@@ -33,8 +33,6 @@ You don't need make on Windows: the speech-timing tool is downloaded ready-made.
 
 Yes. Tell Claude the language of the voice. Claude writes it in the project, and the tool that matches the voice to the script then uses a speech model that knows many languages. It was tested with Polish: 98% of the words matched.
 
-The first time, that model is a bigger download (about 470 MB) than the English-only one.
-
 ## Voice
 
 ### Do I need to give Claude my ElevenLabs API key?
