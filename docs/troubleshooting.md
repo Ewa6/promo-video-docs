@@ -1,6 +1,6 @@
 # Troubleshooting
 
-Use this page when something goes wrong while you make a video. Problems are grouped by when they usually happen. Each one lists what you see, why it happens, and what to do.
+Use this page when something goes wrong while you make a video.
 
 Claude fixes most problems by itself and tells you only about the ones that need you. Many of the messages below come from the project's checking tools, and Claude might quote them to you.
 
