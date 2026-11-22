@@ -27,8 +27,8 @@ You can ask for changes at either point. Claude repeats the work until you appro
 
 Claude keeps two notes files in the video project:
 
-- **brief.md** records your answers: the goal, audience, cuts, voice, sources for each line, and a status checklist. Claude uses it to pick up where you left off.
-- **research.md** records what Claude learned about your product.
+- `brief.md` records your answers: the goal, audience, cuts, voice, sources for each line, and a status checklist. Claude uses it to pick up where you left off.
+- `research.md` records what Claude learned about your product.
 
 You can open either file to check what Claude has recorded. For where the videos are saved, see [Where are my videos saved?](faq.md#where-are-my-videos-saved)
 
