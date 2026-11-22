@@ -55,6 +55,41 @@
     });
   });
 
+  // Collapsible sections (Troubleshooting): open the one a link points to
+  const folds = [...document.querySelectorAll('details.fold')];
+  const openTarget = (hash) => {
+    const el = hash ? document.getElementById(decodeURIComponent(hash.slice(1))) : null;
+    const d = el?.closest('details.fold');
+    if (d && !d.open) d.open = true;
+    return d ? el : null;
+  };
+  if (folds.length) {
+    const first = openTarget(location.hash);
+    if (first) first.scrollIntoView({ block: 'start', behavior: 'instant' });
+    addEventListener('hashchange', () => openTarget(location.hash));
+    document.addEventListener('click', (e) => {
+      const a = e.target.closest('a[href*="#"]');
+      if (a && a.pathname === location.pathname) openTarget(a.hash);
+    });
+    const all = document.querySelector('[data-fold-all]');
+    const sync = () => {
+      const open = folds.every((d) => d.open);
+      if (!all) return;
+      all.textContent = open ? 'Collapse all' : 'Expand all';
+      all.setAttribute('aria-pressed', String(open));
+    };
+    all?.addEventListener('click', () => {
+      const open = !folds.every((d) => d.open);
+      folds.forEach((d) => { d.open = open; });
+      sync();
+    });
+    folds.forEach((d) => d.addEventListener('toggle', sync));
+    // Print everything, then restore what was open
+    let before = [];
+    addEventListener('beforeprint', () => { before = folds.map((d) => d.open); folds.forEach((d) => { d.open = true; }); });
+    addEventListener('afterprint', () => folds.forEach((d, i) => { d.open = before[i]; }));
+  }
+
   // Reading progress and "On this page" highlighting
   const bar = document.querySelector('.progress span');
   const tocLinks = [...document.querySelectorAll('.toc a[href^="#"]:not(.toc-top)')];
