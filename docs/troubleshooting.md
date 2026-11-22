@@ -66,7 +66,7 @@ Until it's fixed, Claude can keep working with estimated timing, so you can stil
 
 **Problem:** Claude says that only part of the script matches the voice recording, for example only 64% of the words.
 
-**Likely cause:** One of these:
+**Likely cause:** The take usually doesn't match for one of these reasons:
 
 - The file is the take for a different cut.
 - The take was generated from an older version of the script.
