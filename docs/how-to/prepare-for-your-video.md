@@ -4,6 +4,15 @@ Use this checklist before you ask Claude for a video. The more of it you have re
 
 Claude reads your code, website, and documentation first, and asks only about what it can't find there. You don't need to prepare everything on this list.
 
+The checklist has six parts:
+
+- [ ] [Decide the goal](#decide-the-goal)
+- [ ] [Collect your message](#collect-your-message)
+- [ ] [Collect your brand files](#collect-your-brand-files)
+- [ ] [Find example videos you like](#find-example-videos-you-like)
+- [ ] [Choose a voice](#choose-a-voice)
+- [ ] [Optional: prepare your app and media](#optional-prepare-your-app-and-media)
+
 ## Before you begin
 
 Make sure the skill is set up. For details, see [Set up the skill](../getting-started.md).
@@ -12,21 +21,21 @@ Make sure the skill is set up. For details, see [Set up the skill](../getting-st
 
 Think about these questions. Claude asks about them in the interview.
 
-- **Who should watch the video?** For example, operations managers at mid-sized factories.
-- **What should they feel or do afterward?** For example, book a demo or sign up.
+- **Who should watch the video?** For example, people who put off tasks, and parents who want a simple reward system for their children.
+- **What should they feel or do afterward?** For example, make their first sticker board.
 - **Where will the video run?** For example, your website, LinkedIn, ads, or a trade-show screen. This decides which cuts you need. For the default cuts, see [What you get](../overview.md#what-you-get).
 
 ## Collect your message
 
 - **Claims and numbers** you can stand behind, each with its source, such as a customer study or a published report. Claude shows a number only with a source line on screen.
 - **Existing taglines.** Claude reuses them before it writes new ones.
-- **Your call to action**, such as "Book a demo" and a website or email address.
+- **Your call to action**, such as "Make a board" and a website or email address.
 - **Words to avoid**, and competitor names that must never appear.
 
 ## Collect your brand files
 
 - **Logo files:** one for light backgrounds (color) and one for dark backgrounds (white). SVG or PNG with a transparent background works best. If you have no logo file, Claude sets your product name in your brand font instead.
-- **Brand colors and fonts**, if they aren't already in your product's code. Colors must be six-digit hex codes, such as `#e4572e`.
+- **Brand colors and fonts**, if they aren't already in your product's code. Colors must be six-digit hex codes, such as `#af442d`.
 
 If your product's colors and your company's corporate colors differ, decide which one the video should use. If you don't decide, Claude uses the product's colors, because they match the product screens in the video.
 

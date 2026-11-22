@@ -90,6 +90,16 @@
     addEventListener('afterprint', () => folds.forEach((d, i) => { d.open = before[i]; }));
   }
 
+  // Checklists: remember ticked items on this device, per page
+  const boxes = [...document.querySelectorAll('.task input[type="checkbox"]')];
+  if (boxes.length) {
+    const key = 'pv-check:' + location.pathname;
+    try { (JSON.parse(localStorage.getItem(key)) || []).forEach((on, i) => { if (boxes[i]) boxes[i].checked = !!on; }); } catch (e) { /* storage unavailable */ }
+    boxes.forEach((b) => b.addEventListener('change', () => {
+      try { localStorage.setItem(key, JSON.stringify(boxes.map((x) => x.checked))); } catch (e) { /* storage unavailable */ }
+    }));
+  }
+
   // Reading progress and "On this page" highlighting
   const bar = document.querySelector('.progress span');
   const tocLinks = [...document.querySelectorAll('.toc a[href^="#"]:not(.toc-top)')];

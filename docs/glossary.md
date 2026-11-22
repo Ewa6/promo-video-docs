@@ -24,7 +24,7 @@ These are the terms you'll meet while you make a video with the promo video skil
 : A tool connected to your Claude session that lets Claude use another service, such as ElevenLabs, on your behalf.
 
 **Cue**
-: A word in the script that triggers something on screen, such as a label appearing when the voice says "inbox."
+: A word in the script that triggers something on screen, such as a label appearing when the voice says "sticker."
 
 **Custom scene**
 : A scene built for your product, such as a recreation of one of your real screens. Compare with *library scene*.
