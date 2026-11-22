@@ -6,7 +6,14 @@ This page takes you from nothing installed to a skill that's ready to make video
 
 Read [Before you begin](prerequisites.md) and make sure you have Claude Code, an ElevenLabs account, and the product's code on your computer.
 
-## Step 1: Install the required tools
+## Step 1: Get the skill
+
+The skill isn't public. To use it, contact one of the authors on LinkedIn:
+
+- [Ewa Jabłońska](https://www.linkedin.com/in/ejablonska/)
+- [Krzysztof Jabłoński](https://www.linkedin.com/in/krzysztof-jab%C5%82o%C5%84ski/)
+
+## Step 2: Install the required tools
 
 Claude runs the video tools on your computer, so a few programs must be installed first. Claude can check and install them for you.
 
@@ -21,7 +28,7 @@ Claude runs the video tools on your computer, so a few programs must be installe
 
 On a Mac, an installer window for the Xcode Command Line Tools might open. Follow the steps in the window, and then tell Claude when it's done.
 
-## Step 2: Choose where to install the skill
+## Step 3: Choose where to install the skill
 
 You can install the skill in one of two places:
 
@@ -32,12 +39,7 @@ You can install the skill in one of two places:
 
 If you're not sure, install it for yourself.
 
-## Step 3: Get the skill
-
-The skill isn't public. To use it, contact one of the authors on LinkedIn:
-
-- [Ewa Jabłońska](https://www.linkedin.com/in/ejablonska/)
-- [Krzysztof Jabłoński](https://www.linkedin.com/in/krzysztof-jab%C5%82o%C5%84ski/)
+Ask Claude Code to install the skill files in the place you chose.
 
 ## Step 4: Check that the skill is ready
 

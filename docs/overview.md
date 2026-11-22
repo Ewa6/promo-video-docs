@@ -52,7 +52,7 @@ You don't need to write code. Claude runs every technical step. The first time, 
 - **It isn't a general video editor.** It makes motion-graphics promo videos for software products. It doesn't edit live-action footage, although you can add your own clips. For details, see [Add screenshots, footage, or music](how-to/add-screenshots-footage-music.md).
 
 > [!IMPORTANT]
-> The videos are built with Remotion. Remotion is free only for individuals, companies with up to three people, and non-profit organizations. Other companies need a [Remotion Company License](https://www.remotion.dev/license). For a promo video, you also need a paid ElevenLabs plan, because the Free plan allows only non-commercial use.
+> The videos are built with Remotion. Remotion is free only for individuals, companies with up to three people, and non-profit organizations. Other companies need a [Remotion Company License](https://www.remotion.dev/license). For commercial use, you also need a paid ElevenLabs plan, because the Free plan allows only non-commercial use.
 
 ## Next steps
 

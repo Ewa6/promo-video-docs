@@ -1,6 +1,6 @@
 # Troubleshooting
 
-Use this page when something goes wrong while you make a video. Problems are grouped by when they usually happen. Each one lists what you see, why it happens, and what to do.
+Use this page when something goes wrong while you make a video.
 
 Claude fixes most problems by itself and tells you only about the ones that need you. Many of the messages below come from the project's checking tools, and Claude might quote them to you.
 
@@ -55,7 +55,7 @@ Claude fixes most problems by itself and tells you only about the ones that need
 
 **Solution:**
 
-1. Ask Claude to install git and make. For details, see [Install the required tools](getting-started.md#step-1-install-the-required-tools).
+1. Ask Claude to install git and make. For details, see [Install the required tools](getting-started.md#step-2-install-the-required-tools).
 2. Ask Claude to try again.
 
 Until it's fixed, Claude can keep working with estimated timing, so you can still review the storyboard.
@@ -244,5 +244,5 @@ or reports that a cut was `skipped: not synced`.
 
 ## Related topics
 
-- [Frequently asked questions](faq.md)
+- [FAQ](faq.md)
 - [Glossary](glossary.md)
