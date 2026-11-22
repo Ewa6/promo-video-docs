@@ -39,9 +39,16 @@ Yes. Tell Claude the language of the voice. Claude writes it in the project, and
 
 No. Claude never asks for an API key. You either generate the takes yourself at elevenlabs.io, or Claude uses an ElevenLabs connector that's already connected to your Claude session.
 
-### Can I use my own voice recording instead of ElevenLabs?
+### Can I use my own voice?
 
-The skill is designed for ElevenLabs. The project can time any MP3, WAV, or M4A recording, as long as it reads the current script word for word. Tell Claude if you want to try your own recording.
+Yes. The easiest way is to clone your voice in ElevenLabs. You record samples of your voice, and ElevenLabs creates a voice that sounds like you. Then you select your clone as the voice when you generate the takes. Voice cloning needs a paid ElevenLabs plan. ElevenLabs offers two types of clone:
+
+- An *Instant Voice Clone* needs about 1–2 minutes of recordings.
+- A *Professional Voice Clone* is more accurate, but it needs at least 30 minutes of recordings, ideally 1–3 hours.
+
+For details, see [Voice cloning](https://elevenlabs.io/docs/product-guides/voices/voice-cloning) in the ElevenLabs documentation.
+
+You can also send Claude a recording that you made yourself, as an MP3, WAV, or M4A file. The recording must read the current script word for word.
 
 ### Do I have to record every cut separately?
 
