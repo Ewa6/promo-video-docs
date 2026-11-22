@@ -4,6 +4,15 @@ Use this checklist before you ask Claude for a video. The more of it you have re
 
 Claude reads your code, website, and documentation first, and asks only about what it can't find there. You don't need to prepare everything on this list.
 
+The checklist has six parts:
+
+- [Decide the goal](#decide-the-goal)
+- [Collect your message](#collect-your-message)
+- [Collect your brand files](#collect-your-brand-files)
+- [Find example videos you like](#find-example-videos-you-like)
+- [Choose a voice](#choose-a-voice)
+- [Optional: prepare your app and media](#optional-prepare-your-app-and-media)
+
 ## Before you begin
 
 Make sure the skill is set up. For details, see [Set up the skill](../getting-started.md).
