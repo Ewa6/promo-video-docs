@@ -513,3 +513,10 @@ kbd { font: 500 11px/1 var(--font); padding: 4px 6px; border-radius: 6px; border
 .fold-all button { padding: .4rem .9rem; border: 1px solid var(--border-strong); border-radius: 999px; background: var(--bg-elev); color: var(--text); font: 500 14px/1.2 var(--font); cursor: pointer; }
 .fold-all button:hover { color: var(--heading); border-color: var(--accent); }
 @media print { .fold-all { display: none !important; } .fold > summary::after { display: none; } }
+
+/* Checklists ("- [ ] item" in Markdown) */
+.prose ul:has(> li.task) { padding-left: 0; }
+.prose li.task { list-style: none; padding-left: 0; }
+.task label { display: flex; gap: .7em; align-items: flex-start; cursor: pointer; }
+.task input { flex: none; width: 1.1em; height: 1.1em; margin: .3em 0 0; accent-color: var(--accent); cursor: pointer; }
+.task input:checked + span { color: var(--muted); }

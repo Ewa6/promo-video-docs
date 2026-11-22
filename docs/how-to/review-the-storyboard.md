@@ -23,7 +23,7 @@ The robotic voice is only a placeholder. It shows the timing, not how the final 
 2. Check the sources table. Every claim and number should come from a source you trust.
 3. Look at the storyboard image. Check that each frame shows what its line talks about.
 4. Watch the draft video. Check the order of the scenes and the pace.
-5. Note anything you want changed. Be specific, for example, "Use 'book a demo' instead of 'get started'," or "Show the reports screen instead of the dashboard."
+5. Note anything you want changed. Be specific, for example, "Use 'make a board' instead of 'get started'," or "Show the print preview instead of the board editor."
 
 ## Approve or ask for changes
 

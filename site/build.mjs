@@ -142,7 +142,9 @@ function renderMarkdown(md, file) {
   const h1 = tokens.find((t) => t.type === 'heading' && t.depth === 1);
   const firstP = tokens.find((t) => t.type === 'paragraph');
   // Wrap tables so wide ones scroll on small screens.
-  const html = marked.parser(tokens).replace(/<table>/g, '<div class="table-wrap"><table>').replace(/<\/table>/g, '</table></div>');
+  const html = marked.parser(tokens).replace(/<table>/g, '<div class="table-wrap"><table>').replace(/<\/table>/g, '</table></div>')
+    // Task lists ("- [ ] item"): clickable checkboxes; site.js remembers them per page.
+    .replace(/<li><input (?:checked="" )?disabled="" type="checkbox"> ?([\s\S]*?)<\/li>/g, '<li class="task"><label><input type="checkbox"><span>$1</span></label></li>');
   return {
     html,
     headings,

@@ -14,7 +14,7 @@ All three are optional. Ask Claude during the interview or at any time later.
 Real screenshots look more convincing than recreated screens. Claude can take them only if your app runs on your computer with demo data.
 
 1. Start the demo version of your app on your computer, or tell Claude how to start it.
-2. Tell Claude which two to four screens matter most, for example, "the inbox, the project page, and the reports dashboard."
+2. Tell Claude which two to four screens matter most, for example, "the board editor, the reward settings, and the print preview."
 3. Claude captures each screen at 1600 × 1000 pixels and adds it to the matching scene, with zooms and labels timed to the voice.
 
 You can also take the screenshots yourself and send them to Claude. Use the same size, 1600 × 1000 pixels.

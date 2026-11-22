@@ -24,7 +24,7 @@ Use this when the message, a claim, or the call to action changes.
 1. Tell Claude what to change, for example:
 
    ```text
-   In the 30-second cut, say "Book a demo today" instead of "Get started."
+   In the 30-second cut, say "Make your first board today" instead of "Get started."
    ```
 
 2. Review and approve the updated script and storyboard. For details, see [Review and approve the storyboard](review-the-storyboard.md).
@@ -82,7 +82,7 @@ If your product name shows up spelled wrong in the captions, see [The product na
 
 Use this to change colors, the logo, the font, the website address, or the call to action.
 
-1. Tell Claude what to change. Give colors as six-digit hex codes, such as `#1b2430`. For a new logo, tell Claude where the file is.
+1. Tell Claude what to change. Give colors as six-digit hex codes, such as `#292923`. For a new logo, tell Claude where the file is.
 2. Review the updated videos.
 
 **Result:** Every cut uses the new branding. You don't need a new take unless the voice says the changed text, such as a new website address.
