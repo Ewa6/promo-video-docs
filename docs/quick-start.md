@@ -44,17 +44,18 @@ For what to look for, see [Review and approve the storyboard](how-to/review-the-
 For each cut, Claude gives you the script text and the voice settings to use.
 
 1. In elevenlabs.io, open the text-to-speech page.
-2. Select the **Eleven v4** model and the voice that Claude names.
-3. Set the voice settings to the values Claude gives you.
-4. Paste the whole script for one cut into the text box, in one piece.
-5. Generate three or four versions, and download the one you like best as an MP3 file.
-6. Tell Claude where the file is, for example:
+2. Select the **Eleven v4** model. The script contains voice directions that only this model understands.
+3. Select the voice you want to use. Tell Claude its name, so Claude can record it for later takes.
+4. Set the voice settings to the values Claude gives you.
+5. Paste the whole script for one cut into the text box, in one piece.
+6. Generate three or four versions, and download the one you like best as an MP3 file.
+7. Tell Claude where the file is, for example:
 
    ```text
    The take for the hero cut is in ~/Downloads/hero-take.mp3
    ```
 
-7. Repeat steps 4–6 for each cut.
+8. Repeat steps 5–7 for each cut.
 
 For more detail, see [Create the voiceover](how-to/create-the-voiceover.md).
 
@@ -69,14 +70,14 @@ Claude times each video to your recording, renders it in full quality, and check
 
 When you approve, you have:
 
-- An MP4 file for each cut, saved in the `out` folder of the video project, for example `marketing/promo-video/out/acme-hero.mp4`
-- A storyboard image for each cut
-- An updated `brief.md` file that records what was made
+- An MP4 file for each cut, saved in the `out` folder of the video project, for example `marketing/promo-video/out/stickerstart-hero.mp4`.
+- A storyboard image for each cut.
+- An updated `brief.md` file that records what was made.
 
 Claude then offers to save the project. For details, see [Continue or save a project](how-to/continue-or-save-a-project.md).
 
 ## Next steps
 
-- [Change a finished video](how-to/change-a-video.md), for example to shorten it or use a new voice.
-- [Add screenshots, footage, or music](how-to/add-screenshots-footage-music.md).
+- To shorten a video or use a new voice, see [Change a finished video](how-to/change-a-video.md).
+- To add your own material, see [Add screenshots, footage, or music](how-to/add-screenshots-footage-music.md).
 - If something goes wrong, see [Troubleshooting](troubleshooting.md).

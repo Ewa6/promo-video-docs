@@ -23,8 +23,8 @@ The project folder is `marketing/promo-video` inside your product's folder, unle
 
 | What | Where in the project folder |
 |---|---|
-| Finished videos | `out`, for example `out/acme-hero.mp4` |
-| Draft videos | `out`, with `.draft` in the name, for example `out/acme-hero.draft.mp4` |
+| Finished videos | `out`, for example `out/stickerstart-hero.mp4` |
+| Draft videos | `out`, with `.draft` in the name, for example `out/stickerstart-hero.draft.mp4` |
 | Storyboard images and check reports | `.qa`, one folder for each cut |
 | Your imported voice takes | `public/voiceover` |
 | Your answers and project status | `brief.md` |

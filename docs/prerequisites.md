@@ -8,11 +8,13 @@ This page lists everything you need before you make your first promo video. If s
 
 The promo video skill is a *Claude Code skill*: a set of instructions and tools that Claude Code loads when you ask for a video. You need Claude Code installed and signed in on the computer where you'll make the video.
 
+Claude Code needs a paid Claude plan, such as Pro or Max, or a Claude Console account. The free Claude plan doesn't include Claude Code. For details, see [Set up Claude Code](https://code.claude.com/docs/en/setup).
+
 **How to check:** Open Claude Code and send a message. If Claude answers, you're ready.
 
 ### The product's code on your computer
 
-Claude researches the product from its code, so the product's code folder (its *repository*) needs to be on your computer. You open Claude Code in that folder. Claude saves the video project inside it, in a folder named `marketing/promo-video` unless you choose another place.
+Claude researches the product from its code, so the product's code folder (its *repository*) needs to be on your computer. You open Claude Code in that folder. Claude saves the video project inside it, in a folder named `marketing/promo-video`, unless you choose another place. The finished videos are in the `out` folder of the project.
 
 **How to check:** You can open the product's folder in Claude Code, and Claude can describe what the product does.
 
@@ -24,15 +26,15 @@ ElevenLabs is the AI voice service that produces the voiceover. You need an acco
 
 ### Tools that turn the project into video
 
-Claude runs these tools for you, but they must be installed on your computer:
+Claude installs the video tools, such as Remotion, by itself when it creates the project. These programs must be on your computer first:
 
-| Tool | Why it's needed | How to check |
-|---|---|---|
-| Node.js, version 22.18 or later, with npm | Runs the video project | In a terminal, run `node -v`. The result must be `v22.18.0` or later. |
-| git | Installs the skill and builds the speech-timing tool | Run `git --version`. |
-| make (Mac and Linux only) | Builds the speech-timing tool the first time | Run `make --version`. On a Mac, installing the Xcode Command Line Tools adds it. On Windows you don't need it: the tool is downloaded ready-made. |
+| Program | Why it's needed |
+|---|---|
+| Node.js, version 22.18 or later, with npm | Runs the video project |
+| git | Builds the speech-timing tool |
+| make (Mac and Linux only) | Builds the speech-timing tool the first time. On Windows, the tool is downloaded ready-made. |
 
-A *terminal* is the app where you type commands, such as Terminal on a Mac. If you prefer, ask Claude to run these checks for you.
+**How to check:** Ask Claude to check these programs. If something is missing, Claude can install it for you. For details, see [Set up the skill](getting-started.md).
 
 ### An internet connection
 
@@ -52,10 +54,10 @@ The first time Claude prepares a project, it downloads the video tools and a spe
 
 Collect these before the interview. Claude asks only for what it can't find in your code or website. For a full checklist, see [Prepare for your first video](how-to/prepare-for-your-video.md).
 
-- Logo files, in color and in white, preferably SVG or PNG with a transparent background
-- Your call to action, such as a website address or "Book a demo"
-- Any numbers or claims you want in the video, each with its source
-- Example videos you like, if you have any
+- Logo files, in color and in white, preferably SVG or PNG with a transparent background.
+- Your call to action, such as a website address or "Book a demo."
+- Any numbers or claims you want in the video, each with its source.
+- Example videos you like, if you have any.
 
 ## Permissions and licenses
 

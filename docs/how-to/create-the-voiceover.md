@@ -18,7 +18,7 @@ You never need to give Claude an ElevenLabs API key.
 
 ## Choose a voice
 
-If you don't have a voice yet, Claude suggests one to look for, based on the tone you described. A warm, confident narrator is the default. In ElevenLabs, a Professional Voice Clone performs best with the Eleven v4 model.
+Claude doesn't choose the voice for you. If you don't have a voice yet, choose one in the ElevenLabs voice library, or create one with Voice Design. Claude can write a Voice Design description for you, based on the tone you described. In ElevenLabs, a Professional Voice Clone performs best with the Eleven v4 model.
 
 To give Claude a voice you already use, find its voice ID in ElevenLabs: go to **Voices**, select **⋯** next to the voice, and then select **Copy voice ID**. Paste the ID into your reply to Claude.
 
@@ -28,8 +28,8 @@ Repeat these steps for each cut that has its own recording. A vertical copy of a
 
 1. Copy the script that Claude gives you for the cut. It appears in a box, ready to paste.
 2. In elevenlabs.io, open the text-to-speech page.
-3. Select the **Eleven v4** model. Don't use a turbo model, because it ignores most voice directions.
-4. Select the voice.
+3. Select the **Eleven v4** model. The script contains voice directions that only this model understands. Don't use a turbo model, because it ignores most of them.
+4. Select the voice. If you haven't told Claude its name yet, tell Claude now, so Claude can record it for later takes.
 5. Set **Stability** and **Similarity** to the values Claude gives you. If Claude gives you a seed number, enter it too.
 6. Paste the whole script for the cut into the text box. Generate it in one piece, not paragraph by paragraph, so the voice stays consistent.
 7. Generate three or four takes. Each take sounds a little different.
