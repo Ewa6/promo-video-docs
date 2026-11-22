@@ -31,8 +31,8 @@ Claude installs the video tools, such as Remotion, by itself when it creates the
 | Program | Why it's needed |
 |---|---|
 | Node.js, version 22.18 or later, with npm | Runs the video project |
-| git | Builds the speech-timing tool |
-| make (Mac and Linux only) | Builds the speech-timing tool the first time. On Windows, the tool is downloaded ready-made. |
+| Git | Builds the speech-timing tool |
+| Make (Mac and Linux only) | Builds the speech-timing tool the first time. On Windows, the tool is downloaded ready-made. |
 
 **How to check:** Ask Claude to check these programs. If something is missing, Claude can install it for you. For details, see [Set up the skill](getting-started.md).
 

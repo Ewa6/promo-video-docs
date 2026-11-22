@@ -218,10 +218,7 @@ kbd { font: 500 11px/1 var(--font); padding: 4px 6px; border-radius: 6px; border
 
 .prose code { font-family: var(--mono); font-size: .86em; padding: .15em .4em; border-radius: 6px; background: var(--inline-code); color: var(--heading); }
 .code { margin: 1.4em 0 1.6em; border-radius: var(--radius); overflow: hidden; background: var(--code-bg); border: 1px solid rgba(157, 175, 230, .16); box-shadow: var(--shadow); }
-.code figcaption { display: flex; align-items: center; gap: 12px; padding: 8px 10px 8px 14px; border-bottom: 1px solid rgba(157, 175, 230, .1); background: rgba(22, 36, 68, .5); }
-.dots { display: flex; gap: 6px; }
-.dots i { width: 9px; height: 9px; border-radius: 50%; background: #2C4376; }
-.dots i:nth-child(1) { background: #58C1DB; } .dots i:nth-child(2) { background: #7B6CC7; } .dots i:nth-child(3) { background: #6888D9; }
+.code figcaption { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 8px 10px 8px 14px; border-bottom: 1px solid rgba(157, 175, 230, .1); background: rgba(22, 36, 68, .5); }
 .lang { font: 500 11px/1 var(--mono); text-transform: uppercase; letter-spacing: .1em; color: #8F9BC4; }
 .copy { margin-left: auto; font: 600 12px/1 var(--font); color: #D0D7F2; background: rgba(104, 136, 217, .14); border: 1px solid rgba(157, 175, 230, .2); border-radius: 8px; padding: 6px 10px; cursor: pointer; transition: all .2s; }
 .copy:hover { background: rgba(88, 193, 219, .18); border-color: #58C1DB; color: #fff; }
