@@ -54,10 +54,10 @@ The first time Claude prepares a project, it downloads the video tools and a spe
 
 Collect these before the interview. Claude asks only for what it can't find in your code or website. For a full checklist, see [Prepare for your first video](how-to/prepare-for-your-video.md).
 
-- Logo files, in color and in white, preferably SVG or PNG with a transparent background
-- Your call to action, such as a website address or "Book a demo"
-- Any numbers or claims you want in the video, each with its source
-- Example videos you like, if you have any
+- Logo files, in color and in white, preferably SVG or PNG with a transparent background.
+- Your call to action, such as a website address or "Book a demo."
+- Any numbers or claims you want in the video, each with its source.
+- Example videos you like, if you have any.
 
 ## Permissions and licenses
 
