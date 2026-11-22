@@ -39,6 +39,8 @@ You can install the skill in one of two places:
 
 If you're not sure, install it for yourself.
 
+Ask Claude Code to install the skill files in the place you chose.
+
 ## Step 4: Check that the skill is ready
 
 1. If Claude Code is open, start a new session so it loads the skill.
