@@ -6,12 +6,12 @@ Claude reads your code, website, and documentation first, and asks only about wh
 
 The checklist has six parts:
 
-- [Decide the goal](#decide-the-goal)
-- [Collect your message](#collect-your-message)
-- [Collect your brand files](#collect-your-brand-files)
-- [Find example videos you like](#find-example-videos-you-like)
-- [Choose a voice](#choose-a-voice)
-- [Optional: prepare your app and media](#optional-prepare-your-app-and-media)
+- [ ] [Decide the goal](#decide-the-goal)
+- [ ] [Collect your message](#collect-your-message)
+- [ ] [Collect your brand files](#collect-your-brand-files)
+- [ ] [Find example videos you like](#find-example-videos-you-like)
+- [ ] [Choose a voice](#choose-a-voice)
+- [ ] [Optional: prepare your app and media](#optional-prepare-your-app-and-media)
 
 ## Before you begin
 
@@ -21,21 +21,21 @@ Make sure the skill is set up. For details, see [Set up the skill](../getting-st
 
 Think about these questions. Claude asks about them in the interview.
 
-- [ ] **Who should watch the video?** For example, people who put off tasks, and parents who want a simple reward system for their children.
-- [ ] **What should they feel or do afterward?** For example, make their first sticker board.
-- [ ] **Where will the video run?** For example, your website, LinkedIn, ads, or a trade-show screen. This decides which cuts you need. For the default cuts, see [What you get](../overview.md#what-you-get).
+- **Who should watch the video?** For example, people who put off tasks, and parents who want a simple reward system for their children.
+- **What should they feel or do afterward?** For example, make their first sticker board.
+- **Where will the video run?** For example, your website, LinkedIn, ads, or a trade-show screen. This decides which cuts you need. For the default cuts, see [What you get](../overview.md#what-you-get).
 
 ## Collect your message
 
-- [ ] **Claims and numbers** you can stand behind, each with its source, such as a customer study or a published report. Claude shows a number only with a source line on screen.
-- [ ] **Existing taglines.** Claude reuses them before it writes new ones.
-- [ ] **Your call to action**, such as "Make a board" and a website or email address.
-- [ ] **Words to avoid**, and competitor names that must never appear.
+- **Claims and numbers** you can stand behind, each with its source, such as a customer study or a published report. Claude shows a number only with a source line on screen.
+- **Existing taglines.** Claude reuses them before it writes new ones.
+- **Your call to action**, such as "Make a board" and a website or email address.
+- **Words to avoid**, and competitor names that must never appear.
 
 ## Collect your brand files
 
-- [ ] **Logo files:** one for light backgrounds (color) and one for dark backgrounds (white). SVG or PNG with a transparent background works best. If you have no logo file, Claude sets your product name in your brand font instead.
-- [ ] **Brand colors and fonts**, if they aren't already in your product's code. Colors must be six-digit hex codes, such as `#af442d`.
+- **Logo files:** one for light backgrounds (color) and one for dark backgrounds (white). SVG or PNG with a transparent background works best. If you have no logo file, Claude sets your product name in your brand font instead.
+- **Brand colors and fonts**, if they aren't already in your product's code. Colors must be six-digit hex codes, such as `#af442d`.
 
 If your product's colors and your company's corporate colors differ, decide which one the video should use. If you don't decide, Claude uses the product's colors, because they match the product screens in the video.
 
@@ -45,14 +45,15 @@ Collect links, video files, or earlier promo videos that have the style you want
 
 ## Choose a voice
 
-- [ ] **Your voice.** If you already have an ElevenLabs voice, note its name or voice ID. If not, describe the voice you want: accent, gender, and tone. For example, "a warm, confident British narrator."
+- If you already have an ElevenLabs voice, note its name or voice ID.
+- If not, describe the voice you want: accent, gender, and tone. For example, "a warm, confident British narrator."
 
 Claude also checks whether it can generate the recordings for you through a connected ElevenLabs tool. If it can, it asks which route you prefer. For details, see [Create the voiceover](create-the-voiceover.md).
 
 ## Optional: prepare your app and media
 
-- [ ] **A demo version of your app** that runs on your computer with demo data only. Claude can take real screenshots of it. Never use real customer data.
-- [ ] **Footage or music** that you have a license to use.
+- **A demo version of your app** that runs on your computer with demo data only. Claude can take real screenshots of it. Never use real customer data.
+- **Footage or music** that you have a license to use.
 
 For details, see [Add screenshots, footage, or music](add-screenshots-footage-music.md).
 
