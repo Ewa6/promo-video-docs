@@ -32,7 +32,7 @@ Claude then researches the product and builds the first draft. This takes a whil
 
 ## Step 3: Approve the storyboard
 
-Claude shows you the script for each cut, a storyboard image, and draft videos with a robotic voice or no sound.
+Claude shows you the script for each cut, a storyboard image, and draft videos. On a Mac, the drafts have a robotic voice. On Windows and Linux, they're silent.
 
 1. Read the script and look at the storyboard.
 2. Reply with any changes, or reply that you approve.
