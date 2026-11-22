@@ -44,6 +44,17 @@ const ICONS = {
 };
 const icon = (name) => `<svg class="ico" viewBox="0 0 24 24" aria-hidden="true">${ICONS[name]}</svg>`;
 
+// Pages where each H3 section folds into a collapsible block: the heading stays
+// visible, the rest opens on click. Links to a section open it (see site.js).
+const FOLD_PAGES = ['troubleshooting.md'];
+function foldSections(html) {
+  const folded = html.replace(/(<h3 id="[^"]+">[\s\S]*?<\/h3>)\n([\s\S]*?)(?=<h[23][ >]|$)/g,
+    (m, heading, body) => `<details class="fold">\n<summary>${heading}</summary>\n<div class="fold-body">\n${body}</div>\n</details>\n`);
+  const i = folded.search(/<h2[ >]/);
+  const toggle = '<p class="fold-all"><button type="button" data-fold-all aria-pressed="false">Expand all</button></p>\n';
+  return i < 0 ? folded : folded.slice(0, i) + toggle + folded.slice(i);
+}
+
 // ── Markdown rendering ───────────────────────────────────────────────────
 function renderMarkdown(md, file) {
   const slug = slugger();
@@ -171,7 +182,7 @@ async function build() {
       next: i >= 0 && i < order.length - 1 ? { href: outPath(order[i + 1]), title: pages.get(order[i + 1]).title } : null,
       nav: NAV.map((s) => ({ ...s, pages: s.pages.map((f) => ({ file: f, href: outPath(f), title: pages.get(f).title })) })),
     };
-    let body = p.html;
+    let body = FOLD_PAGES.includes(file) ? foldSections(p.html) : p.html;
     if (file === 'README.md') {
       const cards = Object.fromEntries([...pages].map(([f, q]) => [f, { href: outPath(f), title: q.title, lead: q.lead }]));
       body = homeBody({ ...ctx, cards, pipeline: PIPELINE });

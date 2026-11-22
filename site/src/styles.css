@@ -499,3 +499,20 @@ kbd { font: 500 11px/1 var(--font); padding: 4px 6px; border-radius: 6px; border
   .layout, .doc { display: block; padding: 0; }
   body { background: #fff; color: #111; }
 }
+
+/* Collapsible sections (Troubleshooting) */
+.fold { margin: .7rem 0; border: 1px solid var(--border); border-radius: var(--radius); background: var(--bg-elev); transition: border-color .2s var(--ease); }
+.fold:hover, .fold[open] { border-color: var(--border-strong); }
+.fold > summary { display: flex; align-items: center; gap: 14px; padding: .85rem 1.15rem; cursor: pointer; list-style: none; border-radius: var(--radius); }
+.fold > summary::-webkit-details-marker { display: none; }
+.fold > summary::after { content: ''; flex: none; width: .5em; height: .5em; margin: 0 4px 4px auto; border-right: 2px solid var(--muted); border-bottom: 2px solid var(--muted); transform: rotate(45deg); transition: transform .2s var(--ease), border-color .2s; }
+.fold[open] > summary::after { margin-bottom: -4px; transform: rotate(-135deg); }
+.fold > summary:hover::after { border-color: var(--accent); }
+.prose .fold > summary h3 { margin: 0; font-size: 1.05rem; }
+.fold-body { padding: 0 1.15rem .4rem; }
+.fold-body > :first-child { margin-top: .2rem; }
+.fold-all { display: none; margin: 1.4rem 0 0; }
+.js .fold-all { display: block; }
+.fold-all button { padding: .4rem .9rem; border: 1px solid var(--border-strong); border-radius: 999px; background: var(--bg-elev); color: var(--text); font: 500 14px/1.2 var(--font); cursor: pointer; }
+.fold-all button:hover { color: var(--heading); border-color: var(--accent); }
+@media print { .fold-all { display: none !important; } .fold > summary::after { display: none; } }
