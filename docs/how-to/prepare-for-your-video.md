@@ -27,12 +27,16 @@ Think about these questions. Claude asks about them in the interview.
 
 ## Collect your message
 
+Claude builds the script from your own words and facts. The more of them you give, the less Claude has to write from scratch.
+
 - **Claims and numbers** you can stand behind, each with its source, such as a customer study or a published report. Claude shows a number only with a source line on screen.
 - **Existing taglines.** Claude reuses them before it writes new ones.
 - **Your call to action**, such as "Make a board" and a website or email address.
 - **Words to avoid**, and competitor names that must never appear.
 
 ## Collect your brand files
+
+These files make the video look like your brand, not like a template.
 
 - **Logo files:** one for light backgrounds (color) and one for dark backgrounds (white). SVG or PNG with a transparent background works best. If you have no logo file, Claude sets your product name in your brand font instead.
 - **Brand colors and fonts**, if they aren't already in your product's code. Colors must be six-digit hex codes, such as `#af442d`.
@@ -45,6 +49,8 @@ Collect links, video files, or earlier promo videos that have the style you want
 
 ## Choose a voice
 
+The voice sets the mood of the whole video, so decide on it early.
+
 - If you already have an ElevenLabs voice, note its name or voice ID.
 - If not, describe the voice you want: accent, gender, and tone. For example, "a warm, confident British narrator."
 
@@ -52,7 +58,9 @@ Claude also checks whether it can generate the recordings for you through a conn
 
 ## Optional: prepare your app and media
 
-- **A demo version of your app** that runs on your computer with demo data only. Claude can take real screenshots of it. Never use real customer data.
+You can skip this part. Claude can make a complete video without it.
+
+- **A demo version of your app that runs on your computer.** By default, Claude doesn't run your app. It reads your code and redraws your screens with invented data. If your app runs on your computer, Claude can take real screenshots of it instead. Use demo data only, never real customer data.
 - **Footage or music** that you have a license to use.
 
 For details, see [Add screenshots, footage, or music](add-screenshots-footage-music.md).

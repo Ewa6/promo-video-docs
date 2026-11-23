@@ -46,6 +46,8 @@ You don't need to write code. Claude runs every technical step. The first time, 
 
 ## What it doesn't do
 
+The skill has clear limits. They help you decide whether it fits your project.
+
 - **It doesn't record the voice for you without ElevenLabs.** You need an ElevenLabs account. Claude writes the script and the voice settings, and you (or a connected ElevenLabs tool) generate the recording.
 - **It doesn't invent claims.** Every line in the script comes from your product, your website, or your answers. Numbers appear only when you can name their source.
 - **It doesn't use real customer data.** Product screens are recreated with invented data. Screenshots are taken only from a demo version of your app.

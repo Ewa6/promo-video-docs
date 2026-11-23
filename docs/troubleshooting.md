@@ -64,7 +64,7 @@ Until it's fixed, Claude can keep working with estimated timing, so you can stil
 
 ### The voice take doesn't match the script
 
-**Problem:** Claude says that only part of the script matches the voice recording, for example only 64% of the words.
+**Problem:** Claude says that only part of the script matches the voice recording, for example only 64% of the words. A match above 90% is normal.
 
 **Likely cause:** The take usually doesn't match for one of these reasons:
 
@@ -78,8 +78,6 @@ Until it's fixed, Claude can keep working with estimated timing, so you can stil
 1. Check that you sent the take for the right cut.
 2. Ask Claude for the current script for that cut, and generate a new take from it. For details, see [Create the voiceover](how-to/create-the-voiceover.md).
 3. If the voice read a direction aloud, ask Claude to replace that direction with a plainer one, and then generate the take again.
-
-A match above 90% is normal.
 
 ### Claude can't find the voice file
 
