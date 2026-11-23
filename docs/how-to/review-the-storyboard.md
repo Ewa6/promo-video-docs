@@ -1,10 +1,6 @@
 # Review and approve the storyboard
 
-The storyboard review is the first of two approval points. Use it to agree on the words and the pictures before anyone records a real voice. Changes are cheap at this stage and cost nothing in ElevenLabs.
-
-## Before you begin
-
-Claude has finished the interview and research and has told you the storyboard is ready.
+Claude shows you the storyboard after the interview and research. This review is the first of two approval points. Use it to agree on the words and the pictures before anyone records a real voice. Changes are cheap at this stage and cost nothing in ElevenLabs.
 
 ## What Claude shows you
 

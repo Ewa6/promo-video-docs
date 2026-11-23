@@ -1,10 +1,6 @@
 # Review and approve the final videos
 
-The final review is the second approval point. Use it to check the finished videos with the real voice before you publish them.
-
-## Before you begin
-
-Claude has imported your voice takes, rendered the videos in full quality, and sent them to you.
+Claude sends you the finished videos after it imports your voice takes and renders the videos in full quality. This review is the second approval point. Use it to check the videos with the real voice before you publish them.
 
 ## What Claude sends you
 
