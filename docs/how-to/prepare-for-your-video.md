@@ -52,7 +52,7 @@ Claude also checks whether it can generate the recordings for you through a conn
 
 ## Optional: prepare your app and media
 
-- **A demo version of your app** that runs on your computer with demo data only. Claude can take real screenshots of it. Never use real customer data.
+- **A demo version of your app that runs on your computer.** By default, Claude doesn't run your app. It reads your code and redraws your screens with invented data. If your app runs on your computer, Claude can take real screenshots of it instead. Use demo data only, never real customer data.
 - **Footage or music** that you have a license to use.
 
 For details, see [Add screenshots, footage, or music](add-screenshots-footage-music.md).
