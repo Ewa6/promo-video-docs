@@ -6,6 +6,8 @@ All three are optional. Ask Claude during the interview or at any time later.
 
 ## Before you begin
 
+Claude puts your material into the video as it is, so check it first:
+
 - Use only content you're allowed to use. You need a license for any music or footage, and screenshots and screen recordings must show demo data only, never real customer data.
 - Have the files on your computer, and know where they are.
 
@@ -17,7 +19,7 @@ Real screenshots look more convincing than recreated screens. Claude can take th
 2. Tell Claude which two to four screens matter most, for example, "the board editor, the reward settings, and the print preview."
 3. Claude captures each screen at 1600 × 1000 pixels and adds it to the matching scene, with zooms and labels timed to the voice.
 
-You can also take the screenshots yourself and send them to Claude. Use the same size, 1600 × 1000 pixels.
+   Alternatively, you can take the screenshots yourself and send them to Claude. Use the same size, 1600 × 1000 pixels.
 
 **Result:** The product scenes show your real app.
 
@@ -41,6 +43,8 @@ Use this to replace a scene's animation with a real clip, for example a screen r
 If you use AI-generated footage, check it for mistakes, such as missing safety equipment or impossible details.
 
 ## Add music
+
+A music bed makes the video feel more finished. Claude keeps it quiet, so the voice stays clear.
 
 1. Tell Claude where the music file is, and confirm that you have a license for it.
 2. Claude places the music well below the voice and fades it out at the end.

@@ -26,7 +26,7 @@ Claude runs the video tools on your computer, so a few programs must be installe
 
 3. Read what Claude plans to install, and approve it.
 
-On a Mac, an installer window for the Xcode Command Line Tools might open. Follow the steps in the window, and then tell Claude when it's done.
+   On a Mac, an installer window for the Xcode Command Line Tools might open. Follow the steps in the window, and then tell Claude when it's done.
 
 ## Step 3: Choose where to install the skill
 
@@ -42,6 +42,8 @@ If you're not sure, install it for yourself.
 Ask Claude Code to install the skill files in the place you chose.
 
 ## Step 4: Check that the skill is ready
+
+Before you make your first video, make sure that Claude Code can find the skill.
 
 1. If Claude Code is open, start a new session so it loads the skill.
 2. Open Claude Code in your product's folder.

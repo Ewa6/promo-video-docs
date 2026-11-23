@@ -18,7 +18,7 @@ When you ask for a promo video, Claude follows the same stages every time. This 
 
 Claude always stops twice and waits for you. It doesn't skip these steps, even to save time.
 
-1. **Storyboard approval.** You see the script, a storyboard image, and a draft video. On a Mac, the draft uses a robotic guide voice. On Windows and Linux, the draft is silent. Either way, you can review the whole video before you spend anything on a real voice. For details, see [Review and approve the storyboard](how-to/review-the-storyboard.md).
+1. **Storyboard approval.** You see the script, a storyboard image, and a draft video. On a Mac, the draft uses a robotic guide voice. On other systems, the draft is silent. Either way, you can review the whole video before you spend anything on a real voice. For details, see [Review and approve the storyboard](how-to/review-the-storyboard.md).
 2. **Final approval.** You see the finished videos with the real voice. For details, see [Review and approve the final videos](how-to/review-the-final-videos.md).
 
 You can ask for changes at either point. Claude repeats the work until you approve.

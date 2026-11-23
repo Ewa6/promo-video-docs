@@ -39,7 +39,7 @@ These are the terms you'll meet while you make a video with the promo video skil
 : The AI voice service that produces the voiceover. The skill uses its Eleven v4 model.
 
 **Guide voice**
-: A robotic placeholder voice that Claude uses for drafts, so you can hear the timing before you record the real voice. It works only on a Mac. On Windows and Linux, drafts are silent.
+: A robotic placeholder voice that Claude uses for drafts, so you can hear the timing before you record the real voice. It works only on a Mac. On other systems, drafts are silent.
 
 **Hero**
 : The main, longest cut, usually 60–90 seconds.

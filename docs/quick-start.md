@@ -4,11 +4,15 @@ This quick start takes you from a request to a finished promo video with the def
 
 ## Before you begin
 
+To finish this quick start without breaks, do these things first:
+
 - [Set up the skill](getting-started.md).
 - Sign in to [elevenlabs.io](https://elevenlabs.io) in your browser.
 - Have your logo files ready, if you have them.
 
 ## Step 1: Ask for a video
+
+You start the skill with a normal request in Claude Code.
 
 1. Open Claude Code in your product's folder.
 2. Type a request, for example:
@@ -32,7 +36,7 @@ Claude then researches the product and builds the first draft. This takes a whil
 
 ## Step 3: Approve the storyboard
 
-Claude shows you the script for each cut, a storyboard image, and draft videos. On a Mac, the drafts have a robotic voice. On Windows and Linux, they're silent.
+Claude shows you the script for each cut, a storyboard image, and draft videos. On a Mac, the drafts have a robotic voice. On other systems, they're silent.
 
 1. Read the script and look at the storyboard.
 2. Reply with any changes, or reply that you approve.

@@ -4,12 +4,16 @@ Claude sends you the finished videos after it imports your voice takes and rende
 
 ## What Claude sends you
 
+Claude sends you the videos together with notes that help you review them.
+
 - **The MP4 videos** for each cut, at full HD resolution (1920 × 1080 pixels for landscape cuts).
 - **A short summary** for each cut: its length, what changed since the storyboard, and anything you still need to do, such as buy a license or record a missing take.
 
 Before it sends the videos, Claude checks each one for problems, such as a scene that's cut off before its animation finishes, text that overlaps, or a voice that's too loud or too quiet. It fixes what it can first.
 
 ## Review the videos
+
+This is your last check before you publish. Watch each video the way your audience will see it.
 
 1. Watch each video from start to finish with the sound on.
 2. Check that the voice is clear and that nothing sounds clipped or cut off.
@@ -18,6 +22,8 @@ Before it sends the videos, Claude checks each one for problems, such as a scene
 5. Check the end of each video: logo, website, and call to action.
 
 ## Approve or ask for changes
+
+When you finish your review, reply to Claude. You can ask for changes as many times as you need.
 
 - To ask for changes, describe them in your reply. Many fixes, such as giving a scene more time, don't need a new recording.
 - To approve, reply that you approve the videos.

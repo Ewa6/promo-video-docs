@@ -4,6 +4,8 @@ You can change a video at any time after it's made: new words, a new voice take,
 
 ## Before you begin
 
+Some changes take a few minutes, and others need a new voice recording. Check these things first:
+
 - Open Claude Code in the same product folder you used to make the video. Claude finds the existing project and reads its notes. For details, see [Continue or save a project](continue-or-save-a-project.md).
 - Know which change needs a new recording. Changing the spoken words means recording that cut again. Most other changes don't.
 
@@ -48,6 +50,8 @@ Use this when you want a different read of the same script, or a different voice
 
 ## Make a cut shorter, longer, or punchier
 
+The length of a cut depends on how many words the voice reads. To change the length or the pace, Claude rewrites the script.
+
 1. Tell Claude what you want, for example, "Make the 30-second cut punchier" or "Make the hero video about 60 seconds."
 2. Claude rewrites the script to fit. As a guide, a 15-second cut has about 28–35 words, and a 30-second cut about 60–75 words.
 3. Approve the new storyboard, and then record a new take.
@@ -65,12 +69,16 @@ Use this when a scene's animation is cut off before it finishes, or a beat feels
 
 ## Add a vertical or square version
 
+Phone feeds and some social posts need a different shape. You don't need a new recording for this.
+
 1. Tell Claude which cut you want in another shape, for example, "Make a vertical version of the 15-second cut."
 2. Claude adds the new cut. It reuses the original cut's recording.
 
 **Result:** You get a vertical (1080 × 1920 pixels) or square (1080 × 1080 pixels) video with the same voice.
 
 ## Turn captions on or off
+
+By default, only the shorter cuts have captions. You can change this for any cut.
 
 1. Tell Claude which cut and whether you want captions on or off.
 
